@@ -179,3 +179,58 @@ footer {
 .icon a {
     color: #FFFFFF;
 }
+
+/*********** Media Query *******
+**************************************/
+@media only screen and (max-width: 400px) {
+    .nav-bar {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-menu {
+        display: block;
+        width: 100%;
+    }
+    .heading-section {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .logos {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .logos .logo {
+        margin: 40px 0;
+    }
+    .collection {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .our-customers {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 1100px) and (min-width: 401px) {
+    .nav-bar {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-menu {
+        display: block;
+        width: 100%;
+    }
+    .collection {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+  }
